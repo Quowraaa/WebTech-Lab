@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #0e60ef;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 45%;
+    border: solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 16px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    
+}
+.rightNav :hover{
+    text-decoration: none;
+    color: blue;
+}
+
+#search{
+    padding: 5px;
+    font-size: 12px;
+    border: solid white;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0,0,0,0.5) url('duck.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1268f3;
+    color: #fffdfe;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
